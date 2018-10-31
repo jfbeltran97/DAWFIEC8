@@ -1,0 +1,23 @@
+body{
+	text-align: center;
+}
+
+.new-container{
+	text-align: center;
+	padding: 20px 350px 20px 350px;
+}
+
+.new-container > img {
+	width: 100%;
+}
+
+.new-container > p{
+	text-align: justify;
+}
+
+@media screen and (max-width: 500px){
+	.new-container{
+		width: 100%;
+		padding: 20px 0px 20px 0px;
+	}
+}

@@ -1,0 +1,118 @@
+.banner {
+	width: 100%;
+	height: 700px;
+	padding: 10px 100px 10px 100px;
+	content: url("../assets/images/somos_temp.jpg");
+	background-size: cover;
+}
+
+.resenia{
+	margin: 100px 0px 100px 0px;
+	width: 100%;
+	text-align: center;
+}
+
+.resenia-content {
+	vertical-align:top;
+	width: 40%;
+	height: 350px;
+	display: inline-block;
+	padding: 50px 0px 50px 0px;
+}
+
+.resenia-content > img {
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+	width: 30%;
+}
+
+
+
+.resenia-content > p {
+	width: 70%;
+	text-align: justify;
+	line-height: 26px;
+}
+
+.mision-vision {
+	width: 100%;
+}
+
+.mision-vision-content {
+	width: 30%;
+	display: inline-block;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.mision-vision-content > p {
+	text-align: justify;
+}
+
+@media screen and (max-width: 1024px){
+	
+	.resenia-content > p{
+		margin-top: -75px;
+	}
+	
+	.nuestros-clientes{
+		margin-top: 60px;
+	}
+
+}
+
+@media screen and (max-width: 880px){
+	.mision-vision{
+		margin-top: 200px;
+	}
+	
+	.clientes{
+		padding-left: 10px;
+		padding-right: 10px;
+
+	}
+
+	.clientes > h3 {
+		text-align: center;
+		overflow: hidden;
+	}
+
+	.resenia-content > p{
+		margin-top: -100px;
+	}
+
+	.nuestros-clientes{
+		margin-top: 75px;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.resenia{
+		margin: 0px 0px 0px 0px;
+	}
+
+	.resenia-content{
+		position: static;
+		display: block;
+		width: 100%;
+		text-align: center;
+		padding: 0px 0px 0px 0px;
+	}
+
+
+
+	.resenia-content > p{
+		width: 100%;
+	}
+
+	.banner {
+		/* reemplazar imagen del banner*/
+	}
+
+	.mision-vision-content{
+		display: block;
+		width: 100%;
+	}
+}

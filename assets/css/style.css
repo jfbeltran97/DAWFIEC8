@@ -1,6 +1,16 @@
 /*
 * ------------------------------------------------------------------
 *
+* Project: Conceptly - Multipurpose Business HTML5 template
+* Version: 1.0
+* Created : 21/02/2017
+* Template URI: 
+* Author Name: NayraThemes
+* Author URI: http://nayrathemes.com/
+* Description: Multipurpose Business HTML5 template
+* Developer: Aminul Haque Chowdhury;
+*
+*
 * -------------------------------------------------------------------
 *
 ============================================
@@ -21,6 +31,7 @@
         08. Projects Future
         09. Gallery
         10. CTA Section
+        11. Pricing
         12. Testimonial
         13. Creative Team
         14. Fun Fact
@@ -960,7 +971,7 @@ header {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.1);
+    background: #000;
     opacity: .5;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
     z-index: -1;

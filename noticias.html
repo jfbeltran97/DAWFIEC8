@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Noticias</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="css/noticias.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div class="nav">
+		<ul>
+			<li><a href="index.php">Inicio</a></li>
+			<li><a href="somos.html">Somos</a></li>
+			<li>
+				<a href="#">Empresas</a>
+				<ul class="dropdown">
+					<li><a href="calinauplio.html">Calinauplio</a></li>
+					<li><a href="aquaindesa.html">Aquaindesa</a></li>
+					<li><a href="crisanticlub.html">Crisanticlub</a></li>
+				</ul>
+			</li>
+			<li><a href="noticias.html">Noticias</a></li> 
+			<li><a href="contacto-cali.html">Contacto</a></li>
+		</ul>
+	</div>
+	<!--
+	<?php
+		require 'Noticia.php';
+		$newsArray = Noticia::loadNews();
+		usort($newsArray, function($a, $b){
+			return strtotime($b->date) - strtotime($a->date);
+		});
+		$flag = true;
+		$echoed = 0;
+
+		for ($i=0; $i < count($newsArray); $i++) { 
+
+			if ($flag) {
+				echo "<div class='noticias-container'>";
+				$flag = false;
+			}
+			$separated = explode(" ", $newsArray[$i]->title);
+			$joined = implode("-", $separated);
+
+			echo "<div class='noticias' onclick=location.href='custom_new.php?val=" . $newsArray[$i]->id . "&title=" . $joined . "'>";
+			/*echo "<a href='custom_new.php?val=" . $newsArray[$i]->id . "'></a>";*/
+			echo "<h1>" . $newsArray[$i]->title . "</h1>";
+			echo "<img src='" . $newsArray[$i]->img . "'>";
+			echo "<p>" . $newsArray[$i]->brief . "</p>";
+			echo "</div>";
+			$echoed = $echoed + 1;
+			if (($echoed === 3) || (($i+1) === count($newsArray))){
+				echo "</div>";
+				$flag = true;
+			}
+		}
+
+	?>-->
+</body>
+</html>

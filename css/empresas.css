@@ -1,0 +1,249 @@
+.bannerContainer {
+	width: 100%;
+	height: 200px;
+	margin: 50px 0px 20px 0px;
+	padding: 0px 30px 0px 30px;
+	text-align: center;
+	background-image: url("../assets/images/LogoCalinauplio.png");
+	background-size: contain;
+}
+
+.bannerContainer > img {
+	
+}
+
+.description{
+	margin: 50px 20px 20px 20px;
+}
+
+.description > p{
+	font-size: 20px;
+	text-align: justify;
+}
+
+.products{
+	width: 100%;
+	margin: 50px 0px 20px 0px;
+	text-align: center;
+	background-image: url("camarones.png");
+}
+
+.product{
+	width: 30%;
+	height: 550px;
+	align-items: center;
+	margin: 20px 50px 20px 50px;
+	display: inline-block;
+	background-color: #fff;
+}
+
+.product > img{
+	width: 40%;
+	margin-top: 50px;
+}
+
+.product > p{
+	margin-top: 50px;
+}
+
+.processes{
+	position: relative;
+	text-align: center;
+	background-color: #e6e6e6;
+	padding-top: 120px;
+	padding-bottom: 30px;
+	z-index: 1000;
+}
+.process{
+	width: 30%;
+	position: relative;
+	display: inline-block;
+	margin: 0px 20px 0px 20px;
+	padding: 200px 60px 50px 60px;
+	text-align: center;
+	border-style: solid;
+	border-color: #666666;
+	border-width: 5px;
+	background-color: #fff;
+	border-top-left-radius: 200px 300%;
+  	border-bottom-left-radius: 200px 300%;
+  	border-top-right-radius: 200px 300%;
+  	border-bottom-right-radius: 200px 300%;
+}
+
+.process:hover{
+	border-color: #f24404;
+}
+
+.process::after{
+	content: "";
+	position: absolute;
+	display: block;
+	top: 50%;
+	width: 100%;
+	height: 5px;
+	background-color: #666666;
+	left: -60%;
+	z-index: -1;
+}
+
+.process::before{
+	content: "";
+	position: absolute;
+	width: 45%;
+	height: 60%;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #f24404;
+	border-radius: 50%;
+	background-image: url(https://picsum.photos/200/300/?random);
+	z-index: 2;
+	top: -25%;
+	left: 27.5%;
+}
+
+.process:first-child:after{
+	content: none;
+}
+
+
+.process > p{
+	text-align: justify;
+}
+@media screen and (max-width: 1024px){
+	.process{
+		display: inline-block;
+		width: 70%;
+		margin: 250px 0px 150px 0px;
+		padding: 100px 30px 100px 30px;
+	}
+
+	.process::after{
+		width: 5px;
+		height: 100%;
+		left: 50%;
+		top: -120%;
+	}
+
+	.process::before{
+		width: 60%;
+		height: 110%;
+		top: -90%;
+		left: 18.5%;
+	}
+
+	#prcs1{
+		margin-top: 250px;
+	}
+
+	#prcslast{
+		margin-bottom: 50px;
+	}
+
+	.nuestros-clientes{
+		margin-top: 100px;
+	}
+
+	.clientes > h3 {
+		overflow: hidden;
+	}
+
+	.clientes{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+@media screen and (max-width: 880px){
+	.process{
+		display: inline-block;
+		width: 70%;
+		margin: 150px 0px 150px 0px;
+		padding: 100px 30px 100px 30px;
+	}
+
+	.process::after{
+		width: 5px;
+		height: 100%;
+		left: 50%;
+		top: -120%;
+	}
+
+	.process::before{
+		width: 60%;
+		height: 80%;
+		top: -60%;
+		left: 18.5%;
+	}
+
+	#prcs1{
+		margin-top: 150px;
+	}
+
+	#prcslast{
+		margin-bottom: 50px;
+	}
+
+	.nuestros-clientes{
+		margin-top: 100px;
+	}
+
+	.clientes > h3 {
+		overflow: hidden;
+	}
+
+	.clientes{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+@media screen and (max-width: 500px){
+	.products{
+		padding: 50px 20px 50px 20px;
+	}
+	.product{
+		width: 100%;
+		margin: 20px 0px 20px 0px;
+	}
+
+	.process{
+		display: block;
+		width: 100%;
+		margin: 170px 0px 150px 0px;
+		padding: 100px 30px 100px 30px;
+	}
+
+	.processes{
+
+	}
+
+	.process::after{
+		width: 5px;
+		height: 100%;
+		left: 50%;
+		top: -60%;
+	}
+
+	.process::before{
+		width: 60%;
+		height: 47%;
+		left: 18.5%;
+		top: -30%;
+	}
+
+	#prcs1{
+		margin-top: 50px;
+	}
+
+	#prcslast{
+		margin-bottom: 50px;
+	}
+}
+/*.process > p{
+	display: none;
+}*/
+
+
+/*.process h3:hover ~p{
+	display: block;
+}*/

@@ -1,0 +1,524 @@
+/* START SLIDESHOW CSS */
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  /*max-width: 100%;*/
+  position: relative;
+  width: 100%;
+  height: 700px;
+}
+
+.mySlides {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* END SLIDESHOW */
+.mision-vision{
+	width: 100%;
+	text-align: center;
+}
+
+.square{
+	display: inline-block;
+	width: 30%;
+
+}
+
+.empresas{
+	background-image: url("camarones.png");
+	position: relative;
+	top: 100px;
+	text-align: center;
+}
+
+.empresa{
+	display: inline-block;
+	text-align: center;
+	width: 25%;
+	padding: 40px 10px 40px 10px;
+	margin: 30px 30px 30px 30px;
+	background-color: #fff;
+}
+
+.element-empresa{
+	margin: 30px 0px 30px 0px;
+}
+
+.empresa > p{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.empresa > a{
+	display: table;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+	background-color: #f24404;
+	padding: 10px 15px 10px 15px;
+	top: 25px;
+}
+
+
+
+.mision h2{
+	text-align: center;
+}
+
+.vision h2{
+	text-align: center;
+}
+
+.mision p{
+	text-align: justify;
+}
+
+.vision p{
+	text-align: justify;
+}
+
+.empresas p{
+	text-align: justify;
+
+}
+
+.nav ul{
+	background-color: #f24404;
+	color: #ffffff;
+	list-style-type: none;
+	text-align: right;
+	margin: 0px 0px 0px 0px;
+}
+
+.nav ul > li {
+	display: inline-block;
+	font-size: 25px;
+	text-align: center;
+}
+
+.nav ul > li > a { /*made so whole area is a clickable link*/
+	display: inline-block;
+	width: 150px; /*fixed size of block. Delete if width should be dynamic*/
+	padding: 20px 20px 20px 20px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.nav > ul > li > ul > li{
+	display: block;
+	text-align: center;
+	font-size: 90%;
+}
+
+.nav > ul > li > ul{
+	padding: 0px 0px 0px 0px;
+
+}
+
+.nav ul > li > a:hover {
+	color: #b73100;
+	background-color: #f9581d;
+}
+
+
+
+.myClients{
+	text-align: center;
+	
+}
+
+.clientes{
+	
+	display: none;
+	width: 20%;
+	padding: 0px 30px 0px 30px;
+}
+
+.clientes > p {
+	text-align: justify;
+
+}
+
+.mySlides > img{
+	width: 100%;
+	height: 100%;
+}
+
+.dropdown{
+	display: none;
+	position: absolute;
+	z-index: -1;
+}
+
+.nav li:hover .dropdown{
+	display: block;
+	z-index: 1;
+}
+
+.nuestros-clientes{
+	position: relative;
+	margin-top: 150px;
+}
+
+/*FOOTER START*/
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+.resultados{
+	padding-top: 50px;
+}
+#graph-details{
+	display: inline-block;
+	width: 500px;
+	height: 500px;
+	vertical-align: top;
+	box-sizing: border-box;
+}
+.table{
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+.wrapper{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: justify;
+}
+
+#myCanvas{
+	vertical-align: top;
+}
+
+@media screen and (max-width: 1024px){
+	.empresa{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+
+}
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+	.empresa{
+		text-align: center;
+		width: 70%;
+	}
+
+}
+
+/*FOOTER END*/
+@media screen and (max-width: 500px){
+	.slideshow-container {
+		display: none;
+	}
+
+	.dot{
+		display: none;
+	}
+
+	.nav{
+		width: 100%;
+		display: block;
+	}
+
+	.mobile-collapse{
+		width: 100%;
+		display: block;
+
+	}
+
+	.empresas{
+		position: static;
+		padding: 15px 15px 15px 15px;
+	}
+
+	.empresa{
+		padding: 0px 0px 0px 0px;
+		margin: 0px 0px 0px 0px;
+	}
+
+	.empresa > a{
+		top: -10px;
+	}
+
+	.prev, .next{
+		display: none;
+	}
+
+	.nuestros-clientes{
+		position: static;
+		margin: 0px 0px 0px 0px;
+
+	}
+
+	.clientes{
+		display: block !important;
+		width: 100%;
+	}
+	.myClients{
+		padding-top: 15px;
+	}
+
+	#myCanvas{
+		width: 100% !important;
+		height: auto !important;
+	}
+
+	.table{
+		height: auto;
+	}
+
+	#graph-details{
+		width: 100%;
+		height: auto;
+		padding: 20px 10px 20px 10px;
+	}
+}
+

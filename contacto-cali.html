@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contacto</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="css/contacto.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div class="nav">
+		<ul>
+			<li><a href="index.php">Inicio</a></li>
+			<li><a href="somos.html">Somos</a></li>
+			<li>
+				<a href="#">Empresas</a>
+				<ul class="dropdown">
+					<li><a href="calinauplio.html">Calinauplio</a></li>
+					<li><a href="aquaindesa.html">Aquaindesa</a></li>
+					<li><a href="crisanticlub.html">Crisanticlub</a></li>
+				</ul>
+			</li>
+			<li><a href="noticias.php">Noticias</a></li> 
+			<li><a href="contacto-cali.html">Contacto</a></li>
+		</ul>
+	</div>
+
+	<div class="static-image">
+		<img src="assets/images/img-hd.jpg">
+	</div>
+		
+	<div class="info">
+		
+		<div class="nauplios block-info">
+			<h2>Info de Nauplios</h2>
+			
+			<p>Loren ipsum dolor sit amter, consectentuer adispiscing elit Loren ipsum dolor sit amter, consectentuer adispiscing elit Loren ipsum dolor sit amter, consectentuer adispiscing elit Loren ipsum dolor sit amter, consectentuer adispiscing elit</p>
+
+		</div>
+
+		<div class="larvas block-info">
+			<h2>Info de Larvas</h2>
+
+			<p>Loren ipsum dolor sit amter, consectentuer adispiscing elit Loren ipsum dolor sit amter, consectentuer adispiscing elit Loren ipsum dolor sit amter, consectentuer adispiscing elit Loren ipsum dolor sit amter, consectentuer adispiscing elit</p>
+		</div>
+
+	</div>
+	<div class="formulario">
+		<h2>Contáctenos</h2>
+		<form action="send.php" method="post">
+			<input type="text" name="name" placeholder="Tu nombre" required> <br>
+			<input type="text" name="email" placeholder="Tu correo" required> <br>
+			<textarea name="description" placeholder="Escribe algo..." required></textarea>
+			<input type="submit" value="Enviar correo">
+		</form>
+	</div>
+	<div id="mapa"></div>
+	<script>
+      function initMap() {
+        var pos = {lat: -2.911522, lng: -79.815588};
+        var map = new google.maps.Map(document.getElementById('mapa'), {
+          zoom: 12,
+          center: pos
+        });
+        var marker = new google.maps.Marker({
+          position: pos,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCU-Z4RrduU3WS0RvXS8DKIujHshJvxTDU&callback=initMap">
+    </script>
+
+	
+
+	<footer>
+		
+	</footer>
+
+</body>
+</html>
