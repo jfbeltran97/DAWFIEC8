@@ -43,7 +43,7 @@ function passClients(n){
     insertBefore(clients[clients.length-1], clients[0]);
   }
   
-  for (var i = 0; i < clients.length; i++) {
+  for(var i = 0; i < clients.length; i++) {
     clients[i].style.display = "none";
   }
 
