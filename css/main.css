@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Poppins|Raleway');
 /* START SLIDESHOW CSS */
 
 * {box-sizing:border-box}
@@ -14,6 +15,7 @@
     display: none;
     width: 100%;
     height: 100%;
+    font-family: 'Poppins',sans-serif;
 }
 
 /* Next & previous buttons */
@@ -126,7 +128,41 @@
 
 .element-empresa{
 	margin: 30px 0px 30px 0px;
-}
+  font-family: 'Poppins', sans-serif;
+  border-radius: 3px;
+  }
+
+.element-empresa-btn{
+     border-top: 1px solid #ff6f00;
+     background: #d68c65;
+     background: -webkit-gradient(linear, left top, left bottom, from(#ff6200), to(#ff8c1a));
+     background: -webkit-linear-gradient(top, #ff6200, #ff8c1a);
+     background: -moz-linear-gradient(top, #ff6200, #ff8c1a);
+     background: -ms-linear-gradient(top, #ff6200, #ff8c1a);
+     background: -o-linear-gradient(top, #ff6200, #ff8c1a);
+     padding: 7px 14px;
+     -webkit-border-radius: 9px;
+     -moz-border-radius: 9px;
+     border-radius: 9px;
+     -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+     -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+     box-shadow: rgba(0,0,0,1) 0 1px 0;
+     text-shadow: rgba(0,0,0,.4) 0 1px 0;
+     color: #ffffff;
+     font-size: 10px;
+     font-family: 'Poppins', sans-serif;
+     text-decoration: none;
+     vertical-align: middle;
+     }
+  .element-empresa-btn:hover {
+     border-top-color: #ff5900;
+     background: #ff5900;
+     color: #ffffff;
+     }
+  .element-empresa-btn:active {
+     border-top-color: #ff8c00;
+     background: #ff8c00;
+     }
 
 .empresa > p{
 	margin-left: 50px;
@@ -143,10 +179,62 @@
 	background-color: #f24404;
 	padding: 10px 15px 10px 15px;
 	top: 25px;
+
+}
+.empresa:hover{
+  background-image: url("https://camaronenecuador.files.wordpress.com/2013/04/camarc3b3n-en-ecuador-cultivo2.jpg");
+  background-color: #929292;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-blend-mode: soft-light;
+  -webkit-transition: .3s;
+  border-radius: 5px;
+  color: antiquewhite;
 }
 
 
+h2{
+  font-family: 'Raleway', sans-serif;
 
+}
+
+.clientes > h3{
+  font-family: 'Didact Gothic', sans-serif;
+  font-weight: bold;
+  color: orangered;
+}
+p{
+  font-family: 'Raleway', sans-serif;
+  padding: 10px;
+  margin: 5px;
+
+}
+.clientes{
+  background-color: #ffaf4a;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+.clientes > img{
+  border-radius: 50%;
+  padding : 10px;
+
+}
+.clientes:hover{
+  background-color: #ff9b10;
+  color: black;
+  border-radius: 5px;
+  box-shadow: -10px 10px 5px -5px rgba(100,100,100,.5);
+
+}
+
+.clientes p{
+  font-style: italic;
+
+
+}
 .mision h2{
 	text-align: center;
 }
@@ -169,16 +257,17 @@
 }
 
 .nav ul{
-	background-color: #f24404;
+	background-color: #ff5d00;
 	color: #ffffff;
 	list-style-type: none;
-	text-align: right;
+	text-align: center;
 	margin: 0px 0px 0px 0px;
 }
 
 .nav ul > li {
 	display: inline-block;
-	font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+	font-size: 16px;
 	text-align: center;
 }
 
@@ -210,11 +299,12 @@
 
 .myClients{
 	text-align: center;
-	
+  background-color: #2b2b2b;
+
 }
 
 .clientes{
-	
+
 	display: none;
 	width: 20%;
 	padding: 0px 30px 0px 30px;
@@ -248,8 +338,10 @@
 
 /*FOOTER START*/
 .footer-distributed{
-	background-color: #292c2f;
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	background-image: url(https://cdn.pixabay.com/photo/2018/04/08/15/13/background-3301487_960_720.jpg);
+  background-color: #ff5d00;
+  background-blend-mode: soft-light;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
@@ -258,6 +350,7 @@
 	padding: 55px 50px;
 	margin-top: 80px;
 }
+
 
 .footer-distributed .footer-left,
 .footer-distributed .footer-center,
@@ -276,12 +369,12 @@
 
 .footer-distributed h3{
 	color:  #ffffff;
-	font: normal 36px 'Cookie', cursive;
+	font: normal 36px 'Poppins';
 	margin: 0;
 }
 
 .footer-distributed h3 span{
-	color:  #5383d3;
+	color:  midnightblue;
 }
 
 /* Footer links */
@@ -457,6 +550,7 @@
 @media screen and (max-width: 500px){
 	.slideshow-container {
 		display: none;
+
 	}
 
 	.dot{
@@ -521,4 +615,3 @@
 		padding: 20px 10px 20px 10px;
 	}
 }
-

@@ -10,10 +10,10 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
 </head>
 <body>
-	
+
 	<div class="nav">
 		<ul>
-			<li><a href="index.php">Inicio</a></li>
+			<li><a href="index.html">Inicio</a></li>
 			<li><a href="somos.html">Somos</a></li>
 			<li>
 				<a href="#">Empresas</a>
@@ -23,14 +23,14 @@
 					<li><a href="crisanticlub.html">Crisanticlub</a></li>
 				</ul>
 			</li>
-			<li><a href="noticias.php">Noticias</a></li> 
+			<li><a href="noticias.php">Noticias</a></li>
 			<li><a href="contacto-cali.html">Contacto</a></li>
 		</ul>
 	</div>
 
-	
+
 	<!-- START SLIDE -->
-	
+
 	<div class="slideshow-container" style="background-color: white">
 	  	<div class="mySlides fade">
 	    	<div class="numbertext">1 / 3</div>
@@ -52,20 +52,20 @@
 
 	  	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 	  	<a class="next" onclick="plusSlides(1)">&#10095;</a>
-	
+
 	</div>
-	
+
 	<br/>
 
 	<div style="text-align:center">
   		<span class="dot" onclick ="currentSlide(1)"></span>
   		<span class="dot" onclick ="currentSlide(2)"></span>
   		<span class="dot" onclick="currentSlide(3)"></span>
-	</div> 
-	
+	</div>
+
 	<!--END SLIDE -->
-	
-	
+
+
 
 	<div class="mision-vision">
 
@@ -85,29 +85,29 @@
 
 		<div class="empresa calinauplio mobile-collapse">
 			<img class="element-empresa" src="assets/images/LogoCalinauplio.png" height="150px" />
-			
+
 			<p class="element-empresa">Loren ipsum dolor sit amter, consectentuer adispiscing elit Loren ipsum dolor sit amter, consectentuer adispiscing elit Loren ipsum dolor sit amter, consectentuer adispiscing elit</p>
-			<a class="element-empresa" href="calinauplio.html">Ver mas</a>
+			<a class="element-empresa-btn" href="calinauplio.html">Ver mas</a>
 		</div>
 
 		<div class="empresa aquaindesa mobile-collapse">
 			<img class="element-empresa" src="assets/images/LogoCalinauplio.png" height="150px" />
-			
+
 			<p class="element-empresa">Loren ipsum dolor sit amter, consectentuer adispiscing elit Loren ipsum dolor sit amter, consectentuer adispiscing elit Loren ipsum dolor sit amter, consectentuer adispiscing elit</p>
-			<a class="element-empresa" href="aquaindesa.html">Ver mas</a>
+			<a class="element-empresa-btn" href="aquaindesa.html">Ver mas</a>
 		</div>
 
 		<div class="empresa crisanticlub mobile-collapse">
 			<img class="element-empresa" src="assets/images/LogoCalinauplio.png" height="150px" />
-			
+
 			<p class="element-empresa">Loren ipsum dolor sit amter, consectentuer adispiscing elit Loren ipsum dolor sit amter, consectentuer adispiscing elit Loren ipsum dolor sit amter, consectentuer adispiscing elit</p>
-			<a class="element-empresa" href="crisanticlub.html">Ver mas</a>
+			<a class="element-empresa-btn" href="crisanticlub.html">Ver mas</a>
 		</div>
 
 	</div>
 
-	
-	
+
+
 	<div class="nuestros-clientes">
 		<a class="prev" onclick="passClients(-1)">&#10094;</a>
 	  	<a class="next" onclick="passClients(1)">&#10095;</a>
@@ -141,17 +141,17 @@
 	</div>
 
 	<script type="text/javascript" src="assets/js/slider.js"></script>
-	<script type="text/javascript">		
+	<script type="text/javascript">
 		showSlides(1);
 		setInterval(function(){plusSlides(1);},5000);
 		passClients(0);
 	</script>
-	
+
 	<div class="nuestros-productos">
-		
+
 	</div>
 
-	
+
 	<div class="resultados" style="text-align: center;">
 		<div id="graph-details">
 			<div class="table">
@@ -182,7 +182,7 @@
 							{
 								$names[] = $row['name'];
 								$values[] = $row['production'];
-								
+
 							}
 							echo implode(",", $values) . "], ";
 							mysqli_close($con);
@@ -199,7 +199,7 @@
 			    		echo "'";
 			    	 ?>
 			    ]
-			        
+
 
 			};
 
@@ -217,40 +217,46 @@
 
 			<div class="footer-left">
 
-				<h3>Company<span>logo</span></h3>
+				<h3>Cali<span>nauplio S.A.</span></h3>
 
 				<p class="footer-links">
-					<a href="#">Home</a>
+					<a href="#">Inicio</a>
 					·
-					<a href="#">Blog</a>
+					<a href="#">Somos</a>
 					·
-					<a href="#">Pricing</a>
+					<a href="#">Empresas</a>
 					·
-					<a href="#">About</a>
+					<a href="#">Noticias</a>
 					·
-					<a href="#">Faq</a>
-					·
-					<a href="#">Contact</a>
+					<a href="#">Contacto</a>
 				</p>
 
-				<p class="footer-company-name">Company Name &copy; 2015</p>
+				<p class="footer-company-name">Caulinauplio S.A. &copy; 2018</p>
 			</div>
 
 			<div class="footer-center">
 
 				<div>
 					<i class="fa fa-map-marker"></i>
-					<p><span>21 Revolution Street</span> Paris, France</p>
+					<p><span>URB San Felipe MZ 130 VILLA 15 </span> Guayaquil, Ecuador</p>
+				</div>
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>KM 1 vía Puerto Balao</span> Balao, Ecuador</p>
+				</div>
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span> Club Crisanti Comuna Río chico</span> Riochico, Ecuador</p>
 				</div>
 
 				<div>
 					<i class="fa fa-phone"></i>
-					<p>+1 555 123456</p>
+					<p>042632496 - 0460106876</p>
 				</div>
 
 				<div>
 					<i class="fa fa-envelope"></i>
-					<p><a href="mailto:support@company.com">support@company.com</a></p>
+					<p><a href="mailto:ventas@calinauplio.com">ventas@calinauplio.com</a></p>
 				</div>
 
 			</div>
