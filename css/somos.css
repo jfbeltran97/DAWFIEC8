@@ -1,40 +1,49 @@
 @import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Poppins|Raleway');
-
+* {box-sizing:border-box}
 .banner {
 	width: 100%;
-	height: 700px;
-	padding: 10px 100px 10px 100px;
+	height: 70%;
+	padding: 1%;
 	content: url("../assets/images/somos_temp.jpg");
 	background-size: cover;
 }
 
 .resenia{
-	margin: 100px 0px 100px 0px;
+
+	margin-top: 1%;
+	margin-bottom: 1%;
 	width: 100%;
-	text-align: center;
+  display: inline-block;
+	padding: 1%;
+
 }
 
+
 .resenia-content {
-	vertical-align:top;
-	width: 40%;
-	height: 350px;
+	width: 50%;
+	height: 100%;
+	padding: 1%;
+	float:left;
+	vertical-align: middle;
+	position:static;
 	display: inline-block;
-	padding: 50px 0px 50px 0px;
 }
 
 .resenia-content > img {
-	position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-	width: 30%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	border-radius: 50%;
 }
 
-
-
 .resenia-content > p {
-	width: 70%;
-	text-align: justify;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: Justify;
 	line-height: 26px;
+	border-radius: 5px;
 }
 
 .mision-vision {
@@ -67,7 +76,7 @@
 
 @media screen and (max-width: 880px){
 	.mision-vision{
-		margin-top: 200px;
+		margin-top: 5%;
 	}
 
 	.clientes{
@@ -83,23 +92,25 @@
 	}
 
 	.resenia-content > p{
-		margin-top: -100px;
+		margin: 1%;
+		width: 100%
 	}
 
 
 }
 
 @media screen and (max-width: 500px){
+
 	.resenia{
-		margin: 0px 0px 0px 0px;
+		margin: 1%;
+		width: 100%;
+
 	}
 
 	.resenia-content{
 		position: static;
-		display: block;
 		width: 100%;
 		text-align: center;
-		padding: 0px 0px 0px 0px;
 	}
 
 
