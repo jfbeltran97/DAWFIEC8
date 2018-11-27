@@ -32,12 +32,15 @@ body{
 
 .formulario{
 	display: inline-block;
+    text-align: left;
 	width: 49.8%;
 	height: 450px;
 	vertical-align: top;
 	background-color: #f2f2f2;
     padding: 20px;
 }
+
+
 
 input[type=text], textarea {
     width: 100%;
@@ -61,6 +64,12 @@ input[type=submit] {
     float: left;
 }
 
+input, option{
+    font-family:  monospace;
+}
+select{
+    margin-bottom: 10px;
+}
 input[type=submit]:hover {
     background-color: #f2442f;
 }

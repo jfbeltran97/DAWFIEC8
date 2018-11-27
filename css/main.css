@@ -1,4 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Poppins|Raleway');
+.nav{
+    height: 64px;
+}
+.nav > ul {
+    height: 100%;
+}
+#search-div{
+    height: 100%;
+    display: inline-block;
+    float: right;
+    margin-right: 15px;
+}
+#wrapper-cell{
+    display: table;
+    height: 100%;
+}
+#inner-wrapper{
+    display: table-cell;
+    vertical-align: middle;
+}
+
 /* START SLIDESHOW CSS */
 
 * {box-sizing:border-box}
@@ -300,6 +321,7 @@ p{
 }
 
 .nav ul{
+    
 	background-color: #ff5d00;
 	color: #ffffff;
 	list-style-type: none;
