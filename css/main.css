@@ -160,7 +160,7 @@ h3{
 }
 
 .empresas{
-	background-image: url("../assets/images/camarones.png");
+	background-image: url("../img/camarones.png");
 	text-align: center;
   border-radius: 5px;
 	position: static;
@@ -244,7 +244,7 @@ h3{
 
 }
 .empresa:hover{
-  background-image: url("../assets/images/camarones.png");
+  background-image: url("../img/camarones.png");
   background-color: #929292;
   background-repeat: no-repeat;
   background-position: center center;

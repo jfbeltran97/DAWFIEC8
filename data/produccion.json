@@ -1,0 +1,20 @@
+{
+    "produccion": [
+        {
+            "name": "Empresa 1",
+            "produccion": 90
+        },
+        {
+            "name": "Empresa 2",
+            "produccion": 78
+        },
+        {
+            "name": "Empresa 3",
+            "produccion": 100
+        },
+        {
+            "name": "Empresa 4",
+            "produccion": 60
+        }
+    ]
+}

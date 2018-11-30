@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>Contacto</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 	<meta charset="utf-8" name="viewport" content="width=device-width">
 	<link rel="stylesheet" type="text/css" href="../css/contacto.css">
@@ -37,7 +39,7 @@
 	</div>
 
 	<div class="static-image">
-		<img src="../assets/images/img-hd.jpg">
+		<img src="../img/img-hd.jpg">
 	</div>
 		
 	<div class="info">
@@ -68,29 +70,14 @@
               <option value="Nauplios">Nauplios</option>
               <option value="Algas">Algas</option>
             </select> <br/>
-            <label>Agregue una foto: </label>
+            <label>Agrega una foto: </label>
             <input type="file" name="pic" accept="image/*">
 			<textarea name="description" placeholder="Escribe algo..." required></textarea>
 			<input type="submit" value="Enviar correo">
 		</form>
 	</div>
 	<div id="mapa"></div>
-	<script>
-      function initMap() {
-        var pos = {lat: -2.911522, lng: -79.815588};
-        var map = new google.maps.Map(document.getElementById('mapa'), {
-          zoom: 12,
-          center: pos
-        });
-        var marker = new google.maps.Marker({
-          position: pos,
-          map: map
-        });
-      }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCU-Z4RrduU3WS0RvXS8DKIujHshJvxTDU&callback=initMap">
-    </script>
+	<script type="text/javascript" src="../js/contacto.js"></script>
 
 	
     <footer class="footer-distributed">

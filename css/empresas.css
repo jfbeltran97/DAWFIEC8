@@ -4,7 +4,7 @@
 	margin: 50px 0px 20px 0px;
 	padding: 0px 30px 0px 30px;
 	text-align: center;
-	background-image: url("../assets/images/LogoCalinauplio.png");
+	background-image: url("../img/LogoCalinauplio.png");
 	background-size: contain;
 }
 
@@ -25,7 +25,7 @@
 	width: 100%;
 	margin: 50px 0px 20px 0px;
 	text-align: center;
-	background-image: url("../assets/images/camarones.png");
+	background-image: url("../img/camarones.png");
 }
 
 .product{

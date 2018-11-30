@@ -53,3 +53,4 @@ function passClients(n){
 
 }
 
+passClients(0);
