@@ -1,8 +1,9 @@
 const express = require('express');
+const path = require('path');
 const app = express();
 
 app.get("/", (req, res)=>{
-    res.sendFile("html/index.html");
+    res.sendFile(path.join(__dirname+"/html/index.html"));
 })
 
 const PORT = process.env.PORT || 3000;
