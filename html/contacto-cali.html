@@ -63,11 +63,13 @@
 			<input type="text" name="email" placeholder="Tu correo" required> <br/>
             <label>Fecha de nacimiento: </label>
             <input type="date"> <br/>
+            <label>Asunto: </label>
              <select name="asunto">
               <option value="Nauplios">Nauplios</option>
               <option value="Algas">Algas</option>
-            </select> 
-            
+            </select> <br/>
+            <label>Agregue una foto: </label>
+            <input type="file" name="pic" accept="image/*">
 			<textarea name="description" placeholder="Escribe algo..." required></textarea>
 			<input type="submit" value="Enviar correo">
 		</form>
