@@ -1,3 +1,24 @@
+#cali{
+	color: #f49542;
+}
+#nauplio{
+	color: midnightblue;
+}
+#aqua{
+	color : #00a5ff;
+}
+#indesa{
+	color: #01c46c;
+}
+#crisanti{
+	color: #01c46c;
+}
+#club{
+	color: #f49542;
+
+}
+
+
 .bannerContainer {
 	width: 100%;
 	height: 200px;
@@ -6,19 +27,22 @@
 	text-align: center;
 	background-image: url("../img/LogoCalinauplio.png");
 	background-size: contain;
+	border-radius: 5px;
 }
 
 .bannerContainer > img {
-	
+	border-radius: 5px;
 }
 
 .description{
 	margin: 50px 20px 20px 20px;
+	border-radius: 5px;
 }
 
 .description > p{
 	font-size: 20px;
 	text-align: justify;
+	border-radius: 5px;
 }
 
 .products{
@@ -26,7 +50,11 @@
 	margin: 50px 0px 20px 0px;
 	text-align: center;
 	background-image: url("../img/camarones.png");
+	border-radius: 5px;
+
+	box-shadow: 5px 5px 5px 5px rgba(100,100,100,.5);
 }
+
 
 .product{
 	width: 30%;
@@ -35,11 +63,21 @@
 	margin: 20px 50px 20px 50px;
 	display: inline-block;
 	background-color: #fff;
+	border-radius: 5px;
+	font-size: 20px;
+}
+.product:hover{
+	background-color: #f49542;
+
+	background-image: url("../img/background-3301487_960_720.jpg");
+	background-blend-mode: soft-light;
 }
 
 .product > img{
 	width: 40%;
 	margin-top: 50px;
+	border-radius: 50%;
+	box-shadow: 5px 5px 5px 5px rgba(100,100,100,.5);
 }
 
 .product > p{
@@ -49,10 +87,12 @@
 .processes{
 	position: relative;
 	text-align: center;
-	background-color: #e6e6e6;
+	background-color: white;
 	padding-top: 120px;
 	padding-bottom: 30px;
 	z-index: 1000;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px 5px rgba(100,100,100,.5);
 }
 .process{
 	width: 30%;
@@ -62,7 +102,7 @@
 	padding: 200px 60px 50px 60px;
 	text-align: center;
 	border-style: solid;
-	border-color: #666666;
+	border-color: black;
 	border-width: 5px;
 	background-color: #fff;
 	border-top-left-radius: 200px 300%;
@@ -74,6 +114,8 @@
 .process:hover{
 	border-color: #f24404;
 }
+
+
 
 .process::after{
 	content: "";
@@ -110,7 +152,11 @@
 .process > p{
 	text-align: justify;
 }
-@media screen and (max-width: 1024px){
+
+
+
+
+@media screen and (max-width: 1315px){
 	.process{
 		display: inline-block;
 		width: 70%;
@@ -141,7 +187,7 @@
 	}
 
 	.nuestros-clientes{
-		
+
 	}
 
 	.clientes > h3 {

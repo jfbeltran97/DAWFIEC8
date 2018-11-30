@@ -321,7 +321,7 @@ p{
 }
 
 .nav ul{
-    
+
 	background-color: #ff5d00;
 	color: #ffffff;
 	list-style-type: none;
@@ -365,7 +365,7 @@ p{
 .myClients{
 	text-align: center;
   background-color: #2b2b2b;
-
+  box-shadow: 5px 5px 5px 5px rgba(100,100,100,.5);
 }
 
 .clientes{

@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/main.css">
 	<link rel="stylesheet" type="text/css" href="../css/empresas.css">
+	<link rel="stylesheet" type="text/css" href="../css/jquery.hover.transform.css">
+
 	<meta charset="utf-8" name="viewport" content="width=device-width">
 </head>
 <body>
@@ -20,7 +22,7 @@
 					<li><a href="crisanticlub.html">Crisanticlub</a></li>
 				</ul>
 			</li>
-			<li><a href="testnoticias.html">Noticias</a></li> 
+			<li><a href="testnoticias.html">Noticias</a></li>
 			<li><a href="contacto-cali.html">Contacto</a></li>
             <div id="search-div">
                 <div id="wrapper-cell">
@@ -29,14 +31,14 @@
                             <input type="search" name="q" required id="search-page" placeholder="Buscar en el sitio">
                             <button id="glass" class="fa fa-search"></button>
                         </form>
-                        
+
                         </div>
 	           </div>
             </div>
 		</ul>
 	</div>
 
-	<h1>AQUAINDESA</h1>
+	<h1 id="aqua">AQUA<span id="indesa">INDESA</span></h1>
 	<div class="bannerContainer">
 		<img src="">
 	</div>
@@ -59,20 +61,23 @@
 	</div>
 
 	<h2>PROCESOS</h2>
-	<div class="processes">
-		<div class="process" id="prcs1">
-			<h3>Paso 1: Loren ipsum</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis vestibulum convallis. Morbi consequat interdum nulla, at faucibus lorem. Donec ac est eu ante mollis faucibus ac condimentum ante. Maecenas efficitur eros vel dui cursus, sit amet dictum ligula consequat. Mauris quis maximus justo.</p>
-		</div>
+	<div class="processes container">
+		<div class ="row">
+			<div class="process col-lg-4 col-md-12 col-sm-12 col-xs-12" id="prcs1">
 
-		<div class="process">
-			<h3>Paso 2: Loren ipsum</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis vestibulum convallis. Morbi consequat interdum nulla, at faucibus lorem. Donec ac est eu ante mollis faucibus ac condimentum ante. Maecenas efficitur eros vel dui cursus, sit amet dictum ligula consequat. Mauris quis maximus justo.</p>
-		</div>
+				<h3>Paso 1: Loren ipsum</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis vestibulum convallis. Morbi consequat interdum nulla, at faucibus lorem. Donec ac est eu ante mollis faucibus ac condimentum ante. Maecenas efficitur eros vel dui cursus, sit amet dictum ligula consequat. Mauris quis maximus justo.</p>
+			</div>
 
-		<div class="process" id="prcslast">
-			<h3>Paso 3: Loren ipsum</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis vestibulum convallis. Morbi consequat interdum nulla, at faucibus lorem. Donec ac est eu ante mollis faucibus ac condimentum ante. Maecenas efficitur eros vel dui cursus, sit amet dictum ligula consequat. Mauris quis maximus justo.</p>
+			<div class="process col-lg-4 col-md-12 col-sm-12 col-xs-12" id= "prcsmid">
+				<h3>Paso 2: Loren ipsum</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis vestibulum convallis. Morbi consequat interdum nulla, at faucibus lorem. Donec ac est eu ante mollis faucibus ac condimentum ante. Maecenas efficitur eros vel dui cursus, sit amet dictum ligula consequat. Mauris quis maximus justo.</p>
+			</div>
+
+			<div class="process col-lg-4 col-md-12 col-sm-12 col-xs-12" id="prcslast">
+				<h3>Paso 3: Loren ipsum</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis convallis vestibulum convallis. Morbi consequat interdum nulla, at faucibus lorem. Donec ac est eu ante mollis faucibus ac condimentum ante. Maecenas efficitur eros vel dui cursus, sit amet dictum ligula consequat. Mauris quis maximus justo.</p>
+			</div>
 		</div>
 	</div>
 
@@ -174,7 +179,13 @@
 			</div>
 
 		</footer>
-	
+
 	<script type="text/javascript" src="../js/slider.js"></script>
+	<script
+ src="https://code.jquery.com/jquery-3.3.1.min.js"
+ integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+ crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="../js/jquery.hover.transform.js"></script>
 </body>
 </html>
